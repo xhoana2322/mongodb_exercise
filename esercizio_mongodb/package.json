@@ -1,0 +1,19 @@
+{
+  "name": "esercizio_mongodb",
+  "version": "1.0.0",
+  "description": "esercitazione mongodb + mongoose",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js",
+    "start:prod": "SET NODE_ENV=production & nodemon server.js"
+  },
+  "author": "me",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.3.3",
+    "morgan": "^1.10.0"
+  }
+}
